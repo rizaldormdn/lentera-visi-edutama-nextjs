@@ -1,6 +1,4 @@
-import { CommonSEO } from "@/components/SEO";
-import PrimaryNavigation from "@/components/molecules/PrimaryNavigation";
-import BlankTemplate from "@/components/templates/BlankTemplate";
+import BlankTemplate from "@/components/templates/Standart";
 import { GetServerSideProps } from "next";
 import { useRouter } from "next/router";
 
@@ -8,12 +6,11 @@ const BlogPost = () => {
 	const router = useRouter();
 
 	return (
-    <BlankTemplate>
-			<PrimaryNavigation />
+		<BlankTemplate>
 			<h1>Welcome to blog page!</h1>
 			<p>Here is the query of the blog page: <code className="font-bold bg-red-500 px-2">{router.query.slug}</code></p>
-    </BlankTemplate>
-  );
+		</BlankTemplate>
+	);
 };
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {

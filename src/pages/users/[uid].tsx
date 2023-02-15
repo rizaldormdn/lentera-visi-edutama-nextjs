@@ -58,7 +58,7 @@ const MePage = ({ users }: props) => {
 				<code className="bg-red-500">
 					The Query: {uid} and the router query: {JSON.stringify(router.query)}
 				</code>
-			</div>	
+			</div>
 		</BlankTemplate>
 	);
 };

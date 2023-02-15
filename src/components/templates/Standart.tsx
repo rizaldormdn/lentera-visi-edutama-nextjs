@@ -1,5 +1,5 @@
-import { NextPage } from "next";
-import PrimaryNavigation from "../molecules/PrimaryNavigation";
+import Footer from "../molecules/Footer";
+import PrimaryNavigation from "../molecules/Navigation";
 
 type props = {
 	children: React.ReactNode;
@@ -7,8 +7,10 @@ type props = {
 
 const BlankTemplate = ({ children }: props) => {
 	return (
-		<div>
+		<div className="min-h-screen">
 			<PrimaryNavigation />
+			<div>{children}</div>
+			<Footer />
 		</div>
 	);
 };
