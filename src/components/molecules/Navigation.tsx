@@ -13,7 +13,7 @@ const PrimaryNavigation = () => {
             <div className="px-3">
                 <Link href={'/'}>
                     <Image width={40} height={40} src={logo} alt='Logo'
-                        className='md:w-[74px] md:h-[74px] '
+                        className='md:w-[74px] md:h-[74px]'
                     />
                 </Link>
             </div>

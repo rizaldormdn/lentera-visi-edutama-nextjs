@@ -7,7 +7,7 @@ const Header = () => {
      const router = useRouter()
      return (
           <>
-               <div className='flex items-center text-white justify-center h-[600px] bg-center bg-cover custom-img md:h-screen bg-fixed'>
+               <div className='custom-img flex items-center text-white justify-center h-[600px] bg-center bg-cover md:h-screen bg-fixed'>
                     <div className='absolute top-[14rem] p-2 md:top-[25rem]'>
                          <h1 className='text-4xl p-2 md:text-6xl lg:w-[50%]'>Bersama Lentera Visi Edutama</h1>
                          <p className='p-2 lg:w-[40%]'>Handal berkomunikasi mudah bersosialisasi miliki sikap profesional tampilkan keunikan diri

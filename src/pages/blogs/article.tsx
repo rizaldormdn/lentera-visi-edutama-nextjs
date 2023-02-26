@@ -39,7 +39,7 @@ const Article = () => {
                          <Image src={Rectangle228} width={250} height={300} alt='' className="mt-6 mb-6 md:w-[500px]" />
                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi praesentium commodi nesciunt asperiores aperiam voluptatem. Cum eveniet,</p>
                     </div>
-                    <div className="h-[1px] w-[100%] md:w-[80%]  mx-auto bg-gray-400  mt-10"></div>
+                    <div className="h-[1px] w-[100%] md:w-[80%] mx-auto bg-gray-400  mt-10"></div>
                     <div className="mt-4 flex items-center">
                          <h3 className="mr-2">Bagikan</h3>
                          <MediaSosial style="text-md px-1 mr-2 text-white bg-gray-500 rounded-full" />
